@@ -1,0 +1,25 @@
+:root {
+  --green1: #00E676;
+  --green2: #007E40;
+  --green3: #00B25B;
+  font-size: 2vh;
+  font-family: "Montserrat-Medium";
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("fonts/Montserrat/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("fonts/Montserrat/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("fonts/Montserrat/Montserrat-Bold.ttf");
+}
+@media screen and (max-width: 800px) {
+    :root {
+      font-size: 16px;
+    }
+}
